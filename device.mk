@@ -29,6 +29,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+PRODUCT_PACKAGES += \
+    CMActions
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensord
